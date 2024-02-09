@@ -1,0 +1,97 @@
+.container{
+    width: 450px;
+    height: 440px;
+    padding-block: 20px;
+
+    border: 1px solid black;
+    border-radius: 3%;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    margin-bottom: 20px;
+
+    font-family: Quicksand-Bold;
+    font-size: 32pt;
+}
+
+.label{
+    width: 270px;
+    margin: 0;
+    padding-bottom: 5px;
+
+    font-family: Quicksand-Bold;
+    font-size: 12pt;
+}
+
+.input{
+    height: 25px;
+    width: 250px;
+    padding-left: 10px;
+
+    margin: 1px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    font-family: Quicksand-SemiBold;
+}
+
+.attantion{
+    margin: 0;
+    margin-inline: 100px;
+
+    color: #606060;
+    text-align: center;
+    font-family: Quicksand-SemiBold;
+    font-size: 12pt;
+}
+
+.button{
+    padding: 5px 15px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    background-color: white;
+    font-family: Quicksand-Bold;
+    font-size: 16pt;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(168, 168, 168, 0.612);
+}
+
+.button:active{
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.changer{
+    margin: 0;
+    margin-bottom: 20px;
+
+    font-family: Quicksand-Bold;
+    font-size: 12pt;
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+.changer:hover{
+    cursor: pointer;
+    color: rgb(140, 140, 140);
+}
+
+.changer:active{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}

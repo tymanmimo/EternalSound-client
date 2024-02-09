@@ -1,0 +1,43 @@
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url('../app/res/fonts/Quicksand-Bold.ttf');
+}
+
+@font-face {
+  font-family: Quicksand-Light;
+  src: url('../app/res/fonts/Quicksand-Light.ttf');
+}
+
+@font-face {
+  font-family: Quicksand-Medium;
+  src: url('../app/res/fonts/Quicksand-Medium.ttf');
+}
+
+@font-face {
+  font-family: Quicksand-Regular;
+  src: url('../app/res/fonts/Quicksand-Regular.ttf');
+}
+
+@font-face {
+  font-family: Quicksand-SemiBold;
+  src: url('../app/res/fonts/Quicksand-SemiBold.ttf');
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 600px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(208, 208, 208);
+  height: 60%;
+}
+
+::-webkit-scrollbar-thumb{
+  background: gray;
+}

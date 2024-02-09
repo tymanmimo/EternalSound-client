@@ -1,0 +1,41 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.3",
+    "@mui/material": "^5.15.3",
+    "axios": "^1.6.5",
+    "classnames": "^2.5.1",
+    "framer-motion": "^10.16.16",
+    "moment": "^2.30.1",
+    "next": "^14.0.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "typescript": "^5"
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:3001",
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
+}

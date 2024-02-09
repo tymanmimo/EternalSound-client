@@ -1,0 +1,26 @@
+.container{
+    width: 80%;
+    height: 70svh;
+    margin-top: 1%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    overflow: auto;
+}
+
+.list{
+    width: 95%;
+    margin-inline: 2.5%;
+}
+
+.notFound{
+    width: 100%;
+    margin: 0;
+    margin-top: calc(30% + 10px);
+
+    color: rgb(100, 100, 100);
+    font-size: 24pt;
+    font-family: Quicksand-Bold;
+    text-align: center;
+}

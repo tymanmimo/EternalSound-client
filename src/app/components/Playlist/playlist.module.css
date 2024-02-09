@@ -1,0 +1,77 @@
+.playlist{
+    position: relative;
+    z-index: 0;
+    user-select: none;
+
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    overflow: hidden;
+}
+
+.playlist:hover{
+    cursor: pointer;
+}
+
+.image{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 20px;
+}
+
+.playlist_name{
+    width: 120px;
+    margin: 5%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.playlist_name b{
+    width: 100%;
+    margin: 0;
+
+    font-size: 10pt;
+    font-family: Quicksand-Bold;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.playlist_name p{
+    margin: 0;
+    
+    font-size: 10pt;
+    font-family: Quicksand-Regular;
+}
+
+.iconbutton{
+    position: relative;
+    z-index: 1;
+}
+
+.playlist .favorite{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}

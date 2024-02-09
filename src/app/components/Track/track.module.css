@@ -1,0 +1,51 @@
+.track{
+    width: cals(100svw - 10px);
+    margin: 10px;
+    padding-block: 5px;
+    padding-inline: 20px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    user-select: none;
+}
+
+.track:hover{
+    cursor: pointer;
+}
+
+.playing{
+    background-color: rgb(227, 227, 227);
+}
+
+.track img{
+    margin-inline: 30px;
+}
+
+.track p{
+    width: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.track_name{
+    width: 100%;
+
+    text-align: start;
+    font-size: 12pt;
+    font-family: Quicksand-Bold;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.track_name p{
+    margin: 0;
+    font-family: Quicksand-Regular;
+}

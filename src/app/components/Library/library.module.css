@@ -1,0 +1,80 @@
+.container{
+    position: relative;
+
+    width: 80%;
+    height: 70svh;
+    margin-top: 1%;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.content{
+    position: absolute;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    overflow-y: auto;
+}
+
+.notFound{
+    width: 100%;
+    color: rgb(150, 150, 150);
+    font-size: 16pt;
+    font-family: Quicksand-Bold;
+    text-align: center;
+}
+
+.chapter{
+    width: 60%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chapter button{
+    width: 100px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+    font-size: 12pt;
+    font-family: Quicksand-Bold;
+}
+
+.chapter button:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.chapter button:active{
+    color: white;
+    background-color: black;
+}
+
+.active{
+    color: rgb(150, 150, 150);
+}
+
+
+.list{
+    width: 95%;
+}
+
+.albumlist{
+    padding-inline: 2.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

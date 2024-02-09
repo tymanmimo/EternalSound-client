@@ -1,0 +1,57 @@
+.artist{
+    width: 100% - 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-right: 25px;
+
+    margin: 15px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    user-select: none;
+    overflow: hidden;
+}
+
+.artist:hover{
+    cursor: pointer;
+}
+
+.artist img{
+    width: 100px;
+    height: 100px;
+}
+
+.info{
+    width: 100%;
+    padding-inline: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.info h1{
+    margin: 0;
+    font-size: 24pt;
+    font-family: 'Quicksand-bold';
+}
+
+.info h2{
+    margin: 0;
+    font-size: 16pt;
+    font-family: 'Quicksand-light';
+}
+
+.favorite{
+    margin: 40px;
+}

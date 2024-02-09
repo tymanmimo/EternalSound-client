@@ -1,0 +1,122 @@
+.container {
+    position: absolute;
+    z-index: 3;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(240, 240, 240);
+    overflow: auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 40px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.info {
+    width: 100%;
+    padding-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+
+.exite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iconbutton {
+    height: 20px;
+}
+
+.info h1 {
+    margin: 0;
+    color: white;
+    font-family: Quicksand-Bold;
+    font-size: 24pt;
+}
+
+.info h2 {
+    margin: 0;
+    color: white;
+    font-family: Quicksand-Bold;
+    font-size: 12pt;
+}
+
+.info p {
+    margin: 0;
+    color: white;
+    font-family: Quicksand-light;
+}
+
+.chapterBlock {
+    margin: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    overflow: hidden;
+}
+
+.list{
+    width: 100%; 
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.albumlist {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.chapter {
+    width: 100%;
+    margin: 0;
+    padding-block: 20px;
+    text-align: center;
+    font-family: 'Quicksand-Bold';
+    font-size: 26pt;
+}
+
+.button {
+    width: 100px;
+    margin: 10px;
+    font-size: 16pt;
+    font-family: Quicksand-Bold;
+    background-color: rgb(235, 235, 235);
+
+    border: 1px solid black;
+    border-radius: 5px
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(205, 205, 205);
+}
+
+.button:active {
+    background-color: black;
+    color: white;
+}
